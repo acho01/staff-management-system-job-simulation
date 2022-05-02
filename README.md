@@ -23,7 +23,7 @@ You will start from the basics and step-by-step get to the real production grade
 storage structure just like the users.
 - Refactor User API and tests to work with User Role/Group concept. User's that have no permission to update data should not be able to do that.
 
-# The second part of the platform will consist of creating the core functionality and adding some new interesing features from scratch. Congratualtions, this is your second Sprint, keep working!!!
+### The second part of the platform will consist of creating the core functionality and adding some new interesing features from scratch. Congratualtions, this is your second Sprint, keep working!!!
 
 - Refactor code to the layered architecture
 - Setup ORM and database connection
@@ -33,7 +33,7 @@ storage structure just like the users.
 - Create a user hierarchy system, every user, besides root user, should have a "manager" to whom he will be reporting. The use case of this feature can be vacation requests.
 - Based on previous idea, you will be asked to implement holiday/vacation management syb-system. If a user wants to take a 1 day vacation(day-off) or a multiple day vacation, he/she should create a request to his "manager" and wait for the approval from him/her.
 
-# On the final stage, you will spend least time coding and more thinking about infrastructure and deployment
+### On the final stage, you will spend least time coding and more thinking about infrastructure and deployment
 
 - As you are going to deploy the API on cloud, you will not want to let everyone use it. You will add/implement a functionality that will give access to specific clients to use your API
 - Dockerize your application, setup instance on cloud and deploy your project
